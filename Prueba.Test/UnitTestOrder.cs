@@ -2,6 +2,7 @@
 
 using OrderManagement.Application.Services;
 using OrderManagement.Domain;
+using OrderManagement.Domain.Entities;
 
 namespace OrderManagement.Test
 {
