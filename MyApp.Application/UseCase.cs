@@ -1,6 +1,6 @@
-﻿using Prueba.Domain;
+﻿using OrderManagement.Domain;
 
-namespace MyApp.Application;
+namespace OrderManagement.Application;
 
 public class UseCase
 {

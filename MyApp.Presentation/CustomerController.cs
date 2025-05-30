@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyApp.Application;
-using Prueba.Domain.Repository;
-using Prueba.Domain;
+using OrderManagement.Domain.Repository;
+using OrderManagement.Domain;
 
-namespace MyApp.Presentation.Controllers;
+namespace OrderManagement.Presentation.Controllers;
 
+/// <summary>
+/// Clase que permite hacer la gestion del cliente
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 
@@ -17,6 +19,10 @@ public class CustomerController : ControllerBase
         _repository = repository;
     }
 
+    /// <summary>
+    /// Metodo que permite obtener todos los clientes 
+    /// </summary>
+    /// <returns>clientes</returns>
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {

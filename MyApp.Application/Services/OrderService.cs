@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Prueba.Domain;
+using OrderManagement.Domain;
 
-namespace Prueba.Application.Services
+namespace OrderManagement.Application.Services
 {
     public class OrderService
     {

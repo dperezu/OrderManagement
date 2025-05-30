@@ -1,6 +1,6 @@
-@MyApp.Presentation_HostAddress = http://localhost:5151
+@OrderManagement.Presentation_HostAddress = http://localhost:5151
 
-GET {{MyApp.Presentation_HostAddress}}/weatherforecast/
+GET {{OrderManagement.Presentation_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

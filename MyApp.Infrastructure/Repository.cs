@@ -1,6 +1,6 @@
-﻿using Prueba.Domain;
+﻿using OrderManagement.Domain;
 
-namespace MyApp.Infrastructure;
+namespace OrderManagement.Infrastructure;
 
 public class Repository : IRepository
 {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Prueba.Domain.Repository;
-using Prueba.Domain;
+using OrderManagement.Domain.Repository;
+using OrderManagement.Domain;
 
-namespace MyApp.Infrastructure.Repositories
+namespace OrderManagement.Infrastructure.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {

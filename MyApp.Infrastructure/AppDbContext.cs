@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Prueba.Domain;
+using OrderManagement.Domain;
 
-namespace MyApp.Infrastructure;
+namespace OrderManagement.Infrastructure;
 
 public class AppDbContext : DbContext
 {

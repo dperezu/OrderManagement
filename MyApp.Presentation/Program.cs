@@ -1,15 +1,15 @@
-using MyApp.Application;
-using Prueba.Domain;
-using MyApp.Infrastructure;
-using MyApp.Infrastructure.Repositories;
-using Prueba.Domain.Repository;
+using OrderManagement.Application;
+using OrderManagement.Domain;
+using OrderManagement.Infrastructure;
+using OrderManagement.Infrastructure.Repositories;
+using OrderManagement.Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Register dependencies
 builder.Services.AddScoped<IRepository, Repository>();
-builder.Services.AddScoped<Prueba.Domain.DomainService>();
+builder.Services.AddScoped<OrderManagement.Domain.DomainService>();
 builder.Services.AddScoped<UseCase>();
 
 builder.Services.AddControllers();

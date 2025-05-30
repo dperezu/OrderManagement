@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Prueba.Domain;
+using OrderManagement.Domain;
 
-namespace MyApp.Infrastructure;
+namespace OrderManagement.Infrastructure;
 
 public class DomainService : IDomainService
 {

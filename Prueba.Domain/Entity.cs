@@ -1,4 +1,4 @@
-﻿namespace Prueba.Domain;
+﻿namespace OrderManagement.Domain;
 
 public class Entity
 {

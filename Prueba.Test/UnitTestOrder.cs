@@ -1,7 +1,9 @@
-using Prueba.Application.Services;
-using Prueba.Domain;
 
-namespace Prueba.Test
+
+using OrderManagement.Application.Services;
+using OrderManagement.Domain;
+
+namespace OrderManagement.Test
 {
     public class OrderServiceTests
     {

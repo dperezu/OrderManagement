@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prueba.Domain.Repository
+namespace OrderManagement.Domain.Repository
 {
     public interface ICustomerRepository
     {
